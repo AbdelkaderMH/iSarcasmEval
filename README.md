@@ -24,10 +24,15 @@ put the shared task csv files into ./data folder
 
 ###### Task A:
 Hyperparameters list:
+
 lm : 'marbert'  for AR or 'twitter' for EN (cardiffnlp/twitter-xlm-roberta-base)
+
 phase: train for model training (predict for inference), predict for model prediction, and taskc for Task C prediction
+
 lang : ar or en 
+
 loss: - WBCE, FL, BCE (Model 1)
+
       - WCE, FL, CE (Model 2, and 3)
 ```
 ####### Model 1
@@ -44,6 +49,7 @@ python train_cgan.py --lm_pretrained ${lm} --lr ${lr} --batch_size ${size} --epo
 ###### Task B:
 
 loss: WBCE, FL, BCE
+
 ```
 python train_cgan_multi.py --lm_pretrained ${lm} --lr ${lr} --batch_size ${size} --epochs ${epochs}  --phase ${phase} --lang ${lang}s
 
