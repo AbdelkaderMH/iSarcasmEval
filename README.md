@@ -1,4 +1,4 @@
-Eval-2022 Task 6: Transformer-based Models for Intended Sarcasm Detection in English and Arabic
+## CS-UM6P at SemEval-2022 Task 6: : Transformer-based Models for Intended Sarcasm Detection in English and Arabic
 
 This repository releases the PyTorch implementation of our submitted system to the intended sarcasm detection task in English and Arabic languages (Task 6: iSarcasmEval of SemEval-2022).
 
